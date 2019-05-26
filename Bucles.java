@@ -79,6 +79,11 @@ class Bucles {
 		}
 		System.out.println("El numero mayor del arreglo es " + mayor);
 
+
 	}
+
+
+
+	
 	
 }
