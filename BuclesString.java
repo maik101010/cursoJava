@@ -30,7 +30,12 @@ class BuclesString {
 		###
 		##
 		#
-
+		     #
+		    ##
+		   ###
+		  ####
+		 #####
+		######
 		*/	
 		
 		// char valor = '#';
