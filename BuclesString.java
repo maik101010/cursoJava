@@ -15,6 +15,10 @@ class BuclesString {
 		// for (int i=0; i<caracteres.length; i++) {
 		// 	System.out.println(caracteres[i]);
 		// }
+ 		String linea;//variable para recorrer la linea
+ 		int pos = linea.indexOf('|');
+		String valor = "michael|asas";
+		System.out.println(valor.substring(0, pos));
 
 		/*
 		#
@@ -45,13 +49,13 @@ class BuclesString {
 		// 	valor+='#';
 		// }
 
-		String valor = "######";
+		// String valor = "######";
 
-		//System.out.print(valor.substring(0, 1));
+		// //System.out.print(valor.substring(0, 1));
 
-		for (int i=0; i<valor.length(); i++) {
-			System.out.println(valor.substring(i, valor.length()));			
-		}
+		// for (int i=0; i<valor.length(); i++) {
+		// 	System.out.println(valor.substring(i, valor.length()));			
+		// }
 
 		// for (int i =0; i<miString.length(); i++) {
 		// 	miString.length
@@ -65,7 +69,16 @@ class BuclesString {
 		 */
 
 		//System.out.print(miString.substring(0,4));
-		
+			
+		// String espacio = "     ";
+		// String valor = "#";
+		// String quitar = espacio;
+		// for (int i=1; i<=espacio.length();i++ ) {
+		// 	System.out.println(quitar+""+valor);
+		// 	valor+="#";
+		// 	quitar = espacio.substring(i);	
+			
+		// }
 
 	}
 }
